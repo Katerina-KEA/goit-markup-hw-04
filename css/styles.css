@@ -160,10 +160,10 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
-      rgba(46, 47, 66, 0.4)
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
     ),
-    url("../images/office-people.jpg");
+    url("../images/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -401,6 +401,7 @@ body {
 .team-icon-box:hover,
 .team-icon-box:focus {
   background-color: var(--pressed-color);
+  cursor: pointer;
 }
 .team-icon {
   width: 16px;
@@ -618,8 +619,6 @@ body {
 }
 .item-link:hover,
 .item-link:focus {
-  
-  border: 0.5px solid var(--seconday-white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .achivement-title {
