@@ -494,6 +494,10 @@ body {
   color: var(--button-border);
 }
 /* --------------------------------------------second container for social-media--------- */
+.flex-container {
+  display: flex;
+}
+
 .footer-content-social {
   margin-left: 120px;
 }
