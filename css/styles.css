@@ -338,7 +338,6 @@ body {
 }
 .team-list {
   display: flex;
-  
   gap: 24px;
   list-style: none;
 }
@@ -357,6 +356,7 @@ body {
   width: 264px;
 }
 .form-card {
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
   background: var(--primary-white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -381,7 +381,6 @@ body {
   justify-content: center;
   gap: 24px;
   padding-top: 8px;
-  padding-bottom: 32px;
 }
 .team-link-item {
   width: 40px;
@@ -392,7 +391,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  display: block;
+  display: flex;
   background-color: var(--accent-color);
   align-items: center;
   justify-content: center;
@@ -406,8 +405,6 @@ body {
 .team-icon {
   width: 16px;
   height: 16px;
-  margin-left: 12px;
-  margin-top: 12px;
 }
 /* ------------------------------Customers----------------- */
 .сustomers {
@@ -506,7 +503,8 @@ body {
   display: flex;
 }
 .footer-social-item {
-  display: block;
+  display: flex;
+  justify-items: center;
   width: 40px;
   height: 40px;
   margin-right: 16px;
@@ -530,10 +528,15 @@ body {
 .footer-social-icon {
   width: 24px;
   height: 24px;
-  margin-top: 8px;
-  margin-left: 8px;
 }
-
+.footer-social-icon-box {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* ------------------------portfolio---------------------- */
 .nav-page-section {
   background: var(--primary-white-color);
